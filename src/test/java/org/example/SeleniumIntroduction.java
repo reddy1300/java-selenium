@@ -11,6 +11,7 @@ public class SeleniumIntroduction {
         //Setting global level property
         /*What is this method System.setProperty(); This is the method where you are setting the global level propertied
         so that way your script knows where to look for that chrome driver. It takes two values key and value*/
+        //No need from selenium version 4.6.0 replaced by SeleniumManager
         System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
         //Firefox: System.setProperty("webdriver.gecko.driver","C:\\Drivers\\geckodriver.exe");
         //MS Edge: System.setProperty("webdriver.edge.driver","C:\\Drivers\\msedgedriver.exe");
