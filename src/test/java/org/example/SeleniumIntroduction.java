@@ -28,6 +28,8 @@ public class SeleniumIntroduction {
         //It will quit the driver. so it will close all associated windows.
         //driver.quit();
 
+        driver.switchTo().alert().
+
 
     }
 }
